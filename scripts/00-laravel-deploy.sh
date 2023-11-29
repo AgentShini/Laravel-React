@@ -16,3 +16,6 @@ echo "Running migrations..."
 php artisan migrate --force
 
 php artisan db:seed --class=UsersTableSeeder
+#echo "Running vite..."
+npm install
+npm run build
